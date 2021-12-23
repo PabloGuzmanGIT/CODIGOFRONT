@@ -1,0 +1,144 @@
+$text-color: rgba(57, 86, 182, 0.986);
+$button-color: rgb(104, 140, 219);
+$footer-text-color: hsla(0, 0%, 99%, 0.986);
+.container {
+    padding: 120px;
+}
+.navbari{
+    display: flex;
+    justify-content: flex-end;
+    text-align: start;
+    list-style: none;
+    
+}
+
+.navbari li {
+    padding-left: 15px;
+}
+
+/*///////// HEADER NAV BAR ///////////////////////////*/
+header {
+    width: 1200px;
+}
+main{
+    width: 940px;
+    justify-content: center;
+}
+
+main img {
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.SearchBar img{
+    width: 100%;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;     
+    text-align: left;   
+}
+.row1 p {
+    padding-right: 150px;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(3,5fr);
+    grid-auto-rows: minmax(200px, auto);
+    
+  }
+ 
+h3 {
+text-decoration: underline;
+}
+
+  .grid-bottom{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px;
+      line-height: normal;
+      height: 180px;
+
+     
+  }
+  h1,h2,h3,h4,a{
+      color: $text-color ;
+  }
+.bar{
+    width: 940px;
+}
+.link-main{
+    display: flex;
+    justify-content: flex-end;
+    width: 940px;
+}
+
+
+.botton-main-row1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.text-footer{
+    height: 270px;
+    align-items: center;
+    overflow:auto  
+   
+}
+
+.footer1{
+    width: 940px;
+    height: 415px;
+    background-color: $text-color;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 35px;
+    color: $footer-text-color;
+    font-size: 11px;    
+
+}
+
+.uno-uno{
+    display: flex;
+    flex-direction: row;
+}
+
+.uno-uno .text1 {
+    width: 50%;
+}
+
+button{
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.button1 {
+    justify-content: end;
+    text-align: right;
+    padding-left: 300px;
+    align-items: baseline;
+
+    
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content:space-between;
+}
+
+
+
+  

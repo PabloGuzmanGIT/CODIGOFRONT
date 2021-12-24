@@ -34,3 +34,19 @@
 .LinkRight{
     width:100%;
 }
+
+
+.NavBar2{
+    button {
+        background-color: $ButtonColor ;
+        color: $buttontxtcolor;
+        padding: 20px;
+        &:hover{
+            border-color: $bordercolor;
+            text-decoration: underline $bordercolor;
+        }
+    }
+    a {
+        border-color:$bordercolor;
+    }
+}

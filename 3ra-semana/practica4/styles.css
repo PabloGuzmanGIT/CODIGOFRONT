@@ -52,4 +52,18 @@
 .LinkRight {
   width: 100%;
 }
+
+.NavBar2 button {
+  background-color: #8e2ae0;
+  color: #f1e7f8;
+  padding: 20px;
+}
+.NavBar2 button:hover {
+  border-color: #44dde2;
+  -webkit-text-decoration: underline #44dde2;
+          text-decoration: underline #44dde2;
+}
+.NavBar2 a {
+  border-color: #44dde2;
+}
 /*# sourceMappingURL=styles.css.map */

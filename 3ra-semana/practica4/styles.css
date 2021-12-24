@@ -53,6 +53,14 @@
   width: 100%;
 }
 
+.NavBar2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .NavBar2 button {
   background-color: #8e2ae0;
   color: #f1e7f8;
@@ -63,7 +71,23 @@
   -webkit-text-decoration: underline #44dde2;
           text-decoration: underline #44dde2;
 }
+.NavBar2 p {
+  width: 100%;
+}
+.NavBar2 h2 {
+  color: #5fd69b;
+}
 .NavBar2 a {
   border-color: #44dde2;
+}
+.NavBar2 .txtgroup {
+  width: 50%;
+}
+.NavBar2 .ProfPic img {
+  border-radius: 50%;
+  border-color: #b5e764;
+  padding: 20px;
+  background-color: #b5e764;
+  margin: 50px;
 }
 /*# sourceMappingURL=styles.css.map */

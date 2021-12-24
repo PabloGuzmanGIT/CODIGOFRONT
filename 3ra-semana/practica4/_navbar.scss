@@ -37,6 +37,11 @@
 
 
 .NavBar2{
+    display: flex;
+    justify-content: center;
+   
+
+
     button {
         background-color: $ButtonColor ;
         color: $buttontxtcolor;
@@ -46,7 +51,26 @@
             text-decoration: underline $bordercolor;
         }
     }
+    p{
+        width: 100%;
+    }
+    h2 {
+        color: $h1color;
+    }
     a {
         border-color:$bordercolor;
     }
+    & .txtgroup{
+        width: 50%;
+    }
+    & .ProfPic img{
+        border-radius: 50% ;
+        border-color: $bordercolor2;
+        padding: 20px;
+        background-color:$bordercolor2;
+        margin: 50px;
+    }
+
+    
 }
+

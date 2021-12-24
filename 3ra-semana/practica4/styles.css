@@ -1,0 +1,55 @@
+.ContenedorMaster {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.NavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+}
+
+.NavBar img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.NavLinks li {
+  float: right;
+  list-style-type: none;
+  padding-left: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.NavLinks li a {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #55b8df;
+}
+.NavLinks li a:hover {
+  color: #7b45b9;
+  -webkit-text-decoration: underline currentColor 9px;
+          text-decoration: underline currentColor 9px;
+}
+
+.LinkRight {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -38,10 +38,9 @@
 
 .NavBar2{
     display: flex;
-    justify-content: center;
+    
+    
    
-
-
     button {
         background-color: $ButtonColor ;
         color: $buttontxtcolor;
@@ -59,9 +58,19 @@
     }
     a {
         border-color:$bordercolor;
+        width: 10%;
+        
     }
     & .txtgroup{
         width: 50%;
+        
+        a img{
+            width: 5%;
+            height: 5%;
+            padding-left: 15px;
+            
+        }
+
     }
     & .ProfPic img{
         border-radius: 50% ;
@@ -70,7 +79,70 @@
         background-color:$bordercolor2;
         margin: 50px;
     }
+    & .Social {
 
+        padding: 10px;
+        text-align: center;
+        
+        .like{
+        border-radius: 10px;
+        background-color: $likeycomparte;
+        border-color: $bordercolor3;
+        border-style: solid 0.5px;
+        font-size: 11px;
+        text-align: center;
+    
+        img{
+            background-color: transparent;
+        }
+        }
+
+        a{
+            text-decoration:none;
+            color: $buttontxtcolor;
+            padding:10px;
+        }
+        .compartir{
+            border-radius: 10px;
+            background-color: $likeycomparte;
+            border-color: $bordercolor3;
+            border-style: solid 0.5px;
+            font-size: 11px;
+            text-align: center;
+            padding-top: 10px;
+            a{
+                text-decoration:none;
+                color: $buttontxtcolor;
+                padding:10px;
+            }
+            }
+
+        .tweet{
+        border-radius: 10px;
+        background-color: $bordercolor;
+        border-color: $bordercolor;
+        border-style: solid 0.5px;
+        font-size: 11px;
+        text-align: center;
+        
+        img{
+            background-color: transparent;
+        }
+        a{
+            text-decoration:none;
+            color: $buttontxtcolor;
+            padding: 10px;
+        }
+        }
+    }
+    
+    
     
 }
 
+main {
+    a {
+        text-decoration: none;
+        color: $likeycomparte;
+    }
+}

@@ -57,9 +57,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 .NavBar2 button {
   background-color: #8e2ae0;
@@ -79,9 +76,15 @@
 }
 .NavBar2 a {
   border-color: #44dde2;
+  width: 10%;
 }
 .NavBar2 .txtgroup {
   width: 50%;
+}
+.NavBar2 .txtgroup a img {
+  width: 5%;
+  height: 5%;
+  padding-left: 15px;
 }
 .NavBar2 .ProfPic img {
   border-radius: 50%;
@@ -89,5 +92,60 @@
   padding: 20px;
   background-color: #b5e764;
   margin: 50px;
+}
+.NavBar2 .Social {
+  padding: 10px;
+  text-align: center;
+}
+.NavBar2 .Social .like {
+  border-radius: 10px;
+  background-color: #3e78c5;
+  border-color: #111110;
+  border-style: solid 0.5px;
+  font-size: 11px;
+  text-align: center;
+}
+.NavBar2 .Social .like img {
+  background-color: transparent;
+}
+.NavBar2 .Social a {
+  text-decoration: none;
+  color: #f1e7f8;
+  padding: 10px;
+}
+.NavBar2 .Social .compartir {
+  border-radius: 10px;
+  background-color: #3e78c5;
+  border-color: #111110;
+  border-style: solid 0.5px;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 10px;
+}
+.NavBar2 .Social .compartir a {
+  text-decoration: none;
+  color: #f1e7f8;
+  padding: 10px;
+}
+.NavBar2 .Social .tweet {
+  border-radius: 10px;
+  background-color: #44dde2;
+  border-color: #44dde2;
+  border-style: solid 0.5px;
+  font-size: 11px;
+  text-align: center;
+}
+.NavBar2 .Social .tweet img {
+  background-color: transparent;
+}
+.NavBar2 .Social .tweet a {
+  text-decoration: none;
+  color: #f1e7f8;
+  padding: 10px;
+}
+
+main a {
+  text-decoration: none;
+  color: #3e78c5;
 }
 /*# sourceMappingURL=styles.css.map */

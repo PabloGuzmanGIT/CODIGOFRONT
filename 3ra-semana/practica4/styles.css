@@ -1,6 +1,9 @@
 .ContenedorMaster {
   padding-left: 150px;
   padding-right: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .NavBar {
@@ -88,9 +91,9 @@
 }
 .NavBar2 .ProfPic img {
   border-radius: 50%;
-  border-color: #d2fc71;
+  border-color: #ddff8e;
   padding: 20px;
-  background-color: #d2fc71;
+  background-color: #ddff8e;
   margin: 50px;
 }
 .NavBar2 .Social {
@@ -151,16 +154,30 @@ main a {
 
 main {
   background-color: #f8f8f8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main .portafolio {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-  grid-template-columns: repeat(4, 1fr);
+  /*grid-template-columns: repeat(4,1fr);*/
+  -ms-grid-columns: 25% 50px 25% 50px 25% 50px 25%;
+  grid-template-columns: 25% 25% 25% 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 50px;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
 }
 main .portafolio div img {
   border-style: solid;
-  border-color: #d2fc71;
+  border-color: #ddff8e;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main .portafolio div img:hover {
   outline-style: solid;
@@ -178,7 +195,7 @@ main .portafolio .littlenote {
       -ms-flex-pack: center;
           justify-content: center;
   border-style: solid;
-  border-color: #d2fc71;
+  border-color: #ddff8e;
 }
 main .portafolio .littlenote:hover {
   outline-style: solid;
@@ -197,7 +214,78 @@ main .portafolio .littlenote .littlecube button {
   font-size: 5px;
   border-radius: 15%;
   color: #8e2ae0;
-  background-color: #d2fc71;
+  background-color: #ddff8e;
   border-style: none;
+}
+main .services {
+  display: -ms-grid;
+  display: grid;
+  /*grid-template-columns: repeat(2,1fr);*/
+  -ms-grid-columns: 310px 50px 310px;
+  grid-template-columns: 310px 310px;
+  /*justify-content: center;*/
+  /*text-align: center;*/
+  /*align-items: center;*/
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .services .cajitas {
+  background-color: #5fd69b;
+  /*padding-right:50%;*/
+  padding-bottom: 1%;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+main .services .cajitas .texto {
+  float: right;
+  width: 50%;
+  text-align: right;
+  font-size: 11px;
+  padding-bottom: 1%;
+  background-color: #ddff8e;
+  border-radius: 10%;
+}
+main .services .cajitas .texto h3 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .services .cajitas .texto a {
+  color: #8e2ae0;
+}
+main .services .cajitas2 {
+  text-align: left;
+  /*padding-left:50%;*/
+  padding-bottom: 1%;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  background-color: #5fd69b;
+}
+main .services .cajitas2 .texto {
+  float: right;
+  font-size: 11px;
+  padding-bottom: 1%;
+  background-color: #ddff8e;
+  border-radius: 10%;
+  width: 50%;
+}
+main .services .cajitas2 .texto h3 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .services .cajitas2 .texto a {
+  color: #8e2ae0;
 }
 /*# sourceMappingURL=styles.css.map */

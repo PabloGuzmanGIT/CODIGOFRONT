@@ -1,13 +1,19 @@
 main {
      background-color: rgb(248, 248, 248);
+     justify-content: center;
      .portafolio {
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        /*grid-template-columns: repeat(4,1fr);*/
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-content: center;
+        row-gap: 50px;
+        column-gap: 50px;
         
         
         div img{
             border-style: solid;
             border-color: $bordercolor2;
+            justify-content: center;
 
             &:hover{
                 outline-style: solid;
@@ -48,7 +54,72 @@ main {
 
         }
     }
-    
+    .services {
+        display: grid;
+        /*grid-template-columns: repeat(2,1fr);*/
+        grid-template-columns: 310px 310px;
+        /*justify-content: center;*/
+        /*text-align: center;*/
+        /*align-items: center;*/
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+        
+        
+        .cajitas {
+            background-color: $h1color;
+            /*padding-right:50%;*/
+            padding-bottom: 1%;
+            height: 100%;
+            width: 100%;  
+            align-items: right;
+            & .texto{
+                float: right;
+                width: 50%;
+                text-align: right;
+                font-size: 11px;
+                padding-bottom: 1%;
+                background-color: $bordercolor2;
+                border-radius: 10%;
+                
+                h3{
+                    justify-content: center;
+                }
+                a {
+                    color: $ButtonColor;
+                }
+            }               
+        }
+        .cajitas2{
+            text-align: left;
+            
+            /*padding-left:50%;*/
+            padding-bottom: 1%;
+            height: 100%;
+            width: 100%;  
+            align-items: right;
+            background-color: $h1color;
+            
+            & .texto{
+                float: right;
+                font-size: 11px;
+                padding-bottom: 1%;
+                background-color: $bordercolor2;
+                border-radius: 10%;
+                width: 50%;
+                h3{
+                    justify-content: center;
+                }
+                a {
+                    color: $ButtonColor;
+                }
+                
+
+                
+                
+            }
+        }
+    }
 }
 
 

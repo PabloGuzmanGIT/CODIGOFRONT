@@ -4,16 +4,21 @@ main {
      .portafolio {
         display: grid;
         /*grid-template-columns: repeat(4,1fr);*/
-        grid-template-columns: 25% 25% 25% 25%;
+        /*grid-template-columns: 25% 25% 25% 25%;*/
+        grid-template-columns: 225px 225px 225px 225px;
         justify-content: center;
         row-gap: 50px;
         column-gap: 50px;
+
         
         
-        div img{
+        
+        & div img{
             border-style: solid;
             border-color: $bordercolor2;
             justify-content: center;
+            padding-left: 10px;
+            
 
             &:hover{
                 outline-style: solid;
@@ -73,6 +78,11 @@ main {
             height: 100%;
             width: 100%;  
             align-items: right;
+            img {
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+            
             & .texto{
                 float: right;
                 width: 50%;
@@ -99,6 +109,11 @@ main {
             width: 100%;  
             align-items: right;
             background-color: $h1color;
+
+            img {
+                padding-left: 10px;
+                padding-top: 10px;
+            }
             
             & .texto{
                 float: right;
@@ -120,6 +135,78 @@ main {
             }
         }
     }
+    .blog {
+        display: grid;
+        /*grid-template-columns: repeat(2,1fr);*/
+        grid-template-columns: 510px 510px;
+        row-gap: 5px;
+        justify-content: center;
+
+        .blogbox{
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items:center;
+            font-size: 11px;
+            & h4{
+                border-left: 1px solid
+            }
+             & .blogtexto{
+                padding-left:1%;
+             }
+    }
+
+    .blogbox2{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        font-size: 11px;
+        & h4{
+            border-left: 5px solid
+        }
+         & .blogtexto2{
+            padding-left:1%;
+         }
+    }
+    .blogbox3{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        font-size: 11px;
+        & h3{
+            border-left: 5px solid
+        }
+         & .blogtexto3{
+            padding-right:1%;
+         }
+    }
+    .blogbox4{
+        display:flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        align-items:center;
+        font-size: 11px;
+        width: 420px;
+
+        & h4{
+            border-left: 5px solid
+        }
+         & .blogtexto4{
+            padding-left:10%;
+         }
+         & .bloglasttext{
+             flex-direction: column;
+             width: 300px;
+             padding-left: 10px;
+             input {
+                 width: 50%;
+             }
+         }
+    }
+    
+}
 }
 
 

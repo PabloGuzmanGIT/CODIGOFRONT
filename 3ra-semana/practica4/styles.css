@@ -320,9 +320,7 @@ main .blog .blogbox {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /*align-items:center;*/
   font-size: 11px;
 }
 main .blog .blogbox h4 {
@@ -364,9 +362,7 @@ main .blog .blogbox3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /*align-items:center;*/
   font-size: 11px;
 }
 main .blog .blogbox3 h3 {
@@ -386,27 +382,89 @@ main .blog .blogbox4 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /*align-items:center;*/
   font-size: 11px;
-  width: 420px;
+  /*width: 420px;*/
 }
 main .blog .blogbox4 h4 {
   border-left: 5px solid;
 }
 main .blog .blogbox4 .blogtexto4 {
-  padding-left: 10%;
+  padding-left: 1%;
 }
 main .blog .blogbox4 .bloglasttext {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
   padding-left: 10px;
+  font-size: 16px;
 }
-main .blog .blogbox4 .bloglasttext input {
-  width: 50%;
+main .blog .blogbox4 .bloglasttext .inputbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main .Contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main .Contact form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .Contact form .Data {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 15px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+main .Contact form .Data input {
+  border: 1px solid;
+}
+main .Contact form .Data input:hover {
+  border-color: #44dde2;
+}
+main .Contact form .BoxButtom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+}
+main .Contact form .BoxButtom input {
+  height: 150px;
+  border: 1px solid;
+}
+main .Contact form .BoxButtom input:hover {
+  border-color: #44dde2;
+}
+main .Contact form .BotonEnviar {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

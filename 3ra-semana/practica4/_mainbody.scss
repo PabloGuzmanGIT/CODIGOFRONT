@@ -146,7 +146,7 @@ main {
             display:flex;
             flex-direction: row;
             justify-content:center;
-            align-items:center;
+            /*align-items:center;*/
             font-size: 11px;
             & h4{
                 border-left: 1px solid
@@ -173,7 +173,7 @@ main {
         display:flex;
         flex-direction: row;
         justify-content:center;
-        align-items:center;
+        /*align-items:center;*/
         font-size: 11px;
         & h3{
             border-left: 5px solid
@@ -186,27 +186,89 @@ main {
         display:flex;
         flex-direction: row;
         justify-content:flex-end;
-        align-items:center;
+        /*align-items:center;*/
         font-size: 11px;
-        width: 420px;
+        /*width: 420px;*/
 
         & h4{
             border-left: 5px solid
         }
          & .blogtexto4{
-            padding-left:10%;
+            padding-left:1%;
+            
+            
+            
          }
          & .bloglasttext{
              flex-direction: column;
-             width: 300px;
              padding-left: 10px;
-             input {
-                 width: 50%;
+             font-size: 16px;
+             
+            & .inputbutton {
+                display: flex;
+                flex-direction: row;
+                                
              }
          }
+
+         
     }
     
-}
+    }
+
+    .Contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+        form{
+            justify-content: center;
+            align-items: center;
+
+            
+
+            .Data{
+                flex-direction: row;
+                margin: 15px;
+                border-radius: 5px;
+                
+                font-size: 11px;             
+                
+                input {
+                    border: 1px solid;
+                    &:hover {
+                        border-color: $bordercolor;
+                        
+                    }
+                }
+                
+            }
+            
+            
+            .BoxButtom{
+                display: flex;
+                flex-direction: column;
+                margin: 15px;
+
+                input {
+                    height: 150px;
+                    border: 1px solid;
+                    &:hover {
+                        border-color: $bordercolor; 
+                    }            
+                }
+
+                
+            }
+            
+            .BotonEnviar{
+                text-align: center;
+                
+                
+            }
+        }
+    }
 }
 
 

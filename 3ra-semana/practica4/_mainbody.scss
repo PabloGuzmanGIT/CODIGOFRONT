@@ -73,11 +73,18 @@ main {
         
         .cajitas {
             background-color: $h1color;
-            /*padding-right:50%;*/
             padding-bottom: 1%;
             height: 100%;
             width: 100%;  
             align-items: right;
+            
+            
+
+            .cajitas :hover{
+                
+                border-color: $ButtonColor solid 1px;
+                
+            }
             img {
                 padding-left: 10px;
                 padding-top: 10px;
@@ -98,8 +105,10 @@ main {
                 a {
                     color: $ButtonColor;
                 }
-            }               
+            }
+                           
         }
+        
         .cajitas2{
             text-align: left;
             

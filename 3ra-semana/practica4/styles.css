@@ -30,7 +30,7 @@
 }
 
 .NavLinks li {
-  float: left;
+  float: right;
   list-style-type: none;
   padding-left: 25px;
   -webkit-box-pack: center;
@@ -147,11 +147,6 @@
   padding: 10px;
 }
 
-main a {
-  text-decoration: none;
-  color: #3e78c5;
-}
-
 main {
   background-color: #f8f8f8;
   -webkit-box-pack: center;
@@ -238,13 +233,15 @@ main .services {
 }
 main .services .cajitas {
   background-color: #5fd69b;
-  /*padding-right:50%;*/
   padding-bottom: 1%;
   height: 100%;
   width: 100%;
   -webkit-box-align: right;
       -ms-flex-align: right;
           align-items: right;
+}
+main .services .cajitas .cajitas :hover {
+  border-color: #8e2ae0 solid 1px;
 }
 main .services .cajitas img {
   padding-left: 10px;

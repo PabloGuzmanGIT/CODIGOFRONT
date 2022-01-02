@@ -30,7 +30,7 @@
 }
 
 .NavLinks li {
-  float: right;
+  float: left;
   list-style-type: none;
   padding-left: 25px;
   -webkit-box-pack: center;
@@ -442,9 +442,11 @@ main .Contact form .Data {
   font-size: 11px;
 }
 main .Contact form .Data input {
+  border-radius: 5px;
   border: 1px solid;
 }
 main .Contact form .Data input:hover {
+  border: 3px solid;
   border-color: #44dde2;
 }
 main .Contact form .BoxButtom {
@@ -458,13 +460,85 @@ main .Contact form .BoxButtom {
   margin: 15px;
 }
 main .Contact form .BoxButtom input {
+  border-radius: 5px;
   height: 150px;
   border: 1px solid;
 }
 main .Contact form .BoxButtom input:hover {
+  border: 3px solid;
   border-color: #44dde2;
 }
 main .Contact form .BotonEnviar {
   text-align: center;
+}
+main .Contact form .BotonEnviar button {
+  background-color: #8e2ae0;
+  color: #f1e7f8;
+  border-radius: 5px;
+  border: none;
+}
+
+footer .LastFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .LastFooter .ImgFooter {
+  text-align: left;
+}
+footer .LastFooter .CentralFooter {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  color: #5fd69b;
+  font-size: 20px;
+}
+footer .LastFooter .FooterImage {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+}
+footer .LastFooter .LowerFooter a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: center;
+}
+footer .NavLinks2 {
+  text-align: center;
+}
+footer .NavLinks2 li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 25px;
+  text-align: center;
+}
+footer .NavLinks2 li a {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #181515;
+}
+footer .NavLinks2 li a:hover {
+  color: #7b45b9;
+  -webkit-text-decoration: underline currentColor 9px;
+          text-decoration: underline currentColor 9px;
 }
 /*# sourceMappingURL=styles.css.map */

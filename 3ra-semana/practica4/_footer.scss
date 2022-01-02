@@ -1,0 +1,57 @@
+footer {
+    
+    .LastFooter{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        
+        .ImgFooter{
+            text-align: left;
+        }
+
+        .CentralFooter{
+            text-align: center;
+            justify-content: center;
+            padding-left: 10px;
+            color: $h1color;
+            font-size:20px;
+    
+    
+        }
+        .FooterImage{
+            text-align: center;
+            justify-content: center;
+            vertical-align: middle;
+        }
+        .LowerFooter a{
+            display: flex;
+            flex-direction: row;
+            float: center;
+        }
+        
+    
+    }
+    
+    .NavLinks2 {
+        text-align: center;
+        
+        li{
+            display: inline-block;
+            list-style-type: none;
+            padding-left:25px;
+            text-align: center;
+            a{
+                
+                justify-content:center;
+                text-decoration: none;
+                color: $h4color;
+                
+                &:hover{
+                    color: rgb(123, 69, 185);
+                    text-decoration: underline currentColor 9px; 
+                }  
+            }
+        }
+    }
+}

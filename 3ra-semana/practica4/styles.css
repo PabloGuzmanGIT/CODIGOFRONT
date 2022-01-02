@@ -240,8 +240,9 @@ main .services .cajitas {
       -ms-flex-align: right;
           align-items: right;
 }
-main .services .cajitas .cajitas :hover {
-  border-color: #8e2ae0 solid 1px;
+main .services .cajitas :hover {
+  border: 3px solid;
+  border-color: #8e2ae0;
 }
 main .services .cajitas img {
   padding-left: 10px;
@@ -306,6 +307,10 @@ main .blog {
       -ms-flex-pack: center;
           justify-content: center;
 }
+main .blog .borderblog :hover :not(div) {
+  outline: 3px solid;
+  outline-color: #8e2ae0;
+}
 main .blog .blogbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,6 +352,10 @@ main .blog .blogbox2 h4 {
 }
 main .blog .blogbox2 .blogtexto2 {
   padding-left: 1%;
+}
+main .blog .blogbox2 :hover :not(div) {
+  outline: 3px solid;
+  outline-color: #8e2ae0;
 }
 main .blog .blogbox3 {
   display: -webkit-box;
@@ -473,6 +482,13 @@ main .Contact form .BotonEnviar button {
   color: #f1e7f8;
   border-radius: 5px;
   border: none;
+  font-size: 9px;
+  padding: 9px;
+}
+main .Contact form .BotonEnviar :hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #44dde2;
+          text-decoration-color: #44dde2;
 }
 
 footer .LastFooter {

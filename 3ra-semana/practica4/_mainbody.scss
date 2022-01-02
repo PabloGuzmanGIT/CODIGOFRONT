@@ -71,20 +71,21 @@ main {
         justify-content: center;
         
         
+        
+        
+        
         .cajitas {
             background-color: $h1color;
             padding-bottom: 1%;
             height: 100%;
             width: 100%;  
             align-items: right;
-            
-            
-
-            .cajitas :hover{
-                
-                border-color: $ButtonColor solid 1px;
-                
+            :hover  {
+                border: 3px solid;
+                border-color: $ButtonColor;
             }
+                       
+
             img {
                 padding-left: 10px;
                 padding-top: 10px;
@@ -105,9 +106,9 @@ main {
                 a {
                     color: $ButtonColor;
                 }
-            }
-                           
+            }                 
         }
+        
         
         .cajitas2{
             text-align: left;
@@ -151,77 +152,98 @@ main {
         row-gap: 5px;
         justify-content: center;
 
+        .borderblog {
+            
+
+            :hover :not(div){  
+            outline: 3px solid;
+            outline-color: $ButtonColor;
+            
+            }    
+        }
         .blogbox{
             display:flex;
             flex-direction: row;
             justify-content:center;
             /*align-items:center;*/
             font-size: 11px;
+            
+                
             & h4{
-                border-left: 1px solid
+                border-left: 1px solid;
+                
             }
              & .blogtexto{
                 padding-left:1%;
              }
-    }
-
-    .blogbox2{
-        display:flex;
-        flex-direction: row;
-        justify-content:center;
-        align-items:center;
-        font-size: 11px;
-        & h4{
-            border-left: 5px solid
-        }
-         & .blogtexto2{
-            padding-left:1%;
-         }
-    }
-    .blogbox3{
-        display:flex;
-        flex-direction: row;
-        justify-content:center;
-        /*align-items:center;*/
-        font-size: 11px;
-        & h3{
-            border-left: 5px solid
-        }
-         & .blogtexto3{
-            padding-right:1%;
-         }
-    }
-    .blogbox4{
-        display:flex;
-        flex-direction: row;
-        justify-content:flex-end;
-        /*align-items:center;*/
-        font-size: 11px;
-        /*width: 420px;*/
-
-        & h4{
-            border-left: 5px solid
-        }
-         & .blogtexto4{
-            padding-left:1%;
             
-            
-            
-         }
-         & .bloglasttext{
-             flex-direction: column;
-             padding-left: 10px;
-             font-size: 16px;
              
-            & .inputbutton {
-                display: flex;
-                flex-direction: row;
-                                
-             }
-         }
+        }
+        
 
-         
-    }
+        .blogbox2{
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items:center;
+            font-size: 11px;
+            & h4{
+                border-left: 5px solid
+            }
+            & .blogtexto2{
+                padding-left:1%;
+            }
+            :hover :not(div){  
+                outline: 3px solid;
+                outline-color: $ButtonColor;
+                
+            } 
+        }
+        .blogbox3{
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+            /*align-items:center;*/
+            font-size: 11px;
+            & h3{
+                border-left: 5px solid
+            }
+            & .blogtexto3{
+                padding-right:1%;
+            }
+        }
+        .blogbox4{
+            display:flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            /*align-items:center;*/
+            font-size: 11px;
+            /*width: 420px;*/
+
+            & h4{
+                border-left: 5px solid
+            }
+            & .blogtexto4{
+                padding-left:1%;
+                
+                
+                
+            }
+            & .bloglasttext{
+                flex-direction: column;
+                padding-left: 10px;
+                font-size: 16px;
+                
+                & .inputbutton {
+                    display: flex;
+                    flex-direction: row;
+                                    
+                }
+            }
+
+            
+        }
+     
     
     }
 
@@ -261,11 +283,13 @@ main {
                 display: flex;
                 flex-direction: column;
                 margin: 15px;
+                
 
                 input {
                     border-radius: 5px;
                     height: 150px;
                     border: 1px solid;
+                    
                     &:hover {
                         border: 3px solid;
                         border-color: $bordercolor;
@@ -278,12 +302,23 @@ main {
             
             .BotonEnviar{
                 text-align: center;
+                
                 button{
                      background-color: $ButtonColor;
                      color: $buttontxtcolor;
                      border-radius: 5px;
                      border:none;
+                     font-size:  9px;
+                     padding: 9px;
                      
+
+                     
+                     
+                }
+                & :hover{
+                    text-decoration: underline;
+                    text-decoration-color: $bordercolor;
+                    
                 }
                 
             }
@@ -291,6 +326,8 @@ main {
 
         
     }
+
+    
     
 }
 

@@ -17,7 +17,7 @@ main {
             border-style: solid;
             border-color: $bordercolor2;
             justify-content: center;
-            padding-left: 10px;
+            
             
 
             &:hover{
@@ -151,6 +151,7 @@ main {
         grid-template-columns: 510px 510px;
         row-gap: 5px;
         justify-content: center;
+        text-align: center;
 
         .borderblog {
             
@@ -252,6 +253,7 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        text-align: center;
         
         form{
             justify-content: center;

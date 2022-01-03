@@ -162,7 +162,6 @@ main .portafolio div img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 10px;
 }
 main .portafolio div img:hover {
   outline-style: solid;
@@ -294,6 +293,7 @@ main .blog {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 main .blog .borderblog :hover :not(div) {
   outline: 3px solid;
@@ -417,6 +417,7 @@ main .Contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  text-align: center;
 }
 main .Contact form {
   -webkit-box-pack: center;

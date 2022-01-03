@@ -16,6 +16,11 @@ footer {
             padding-left: 10px;
             color: $h1color;
             font-size:20px;
+
+            :hover{
+                text-decoration: underline;
+                text-decoration-color: $bordercolor;
+            }
     
     
         }

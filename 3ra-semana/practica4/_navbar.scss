@@ -1,39 +1,36 @@
 .NavBar{
     display:flex;
-    flex-direction: row;
     background-color: white;
+    img {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
     
     
 }
-.NavBar img {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-}
-.NavLinks li{
-    float:right;
+
+.NavLinks{ 
+    li{
+    float:left;
     list-style-type: none;
     padding-left:25px;
-    justify-content:center;
-    
-    
-}
-.NavLinks li a{
-    display: block;
-    justify-content:center;
-    text-decoration: none;
-    color: rgb(85, 184, 223);
-    
-    &:hover{
-        color: rgb(123, 69, 185);
-        text-decoration: underline currentColor 9px; 
+    text-align: right;
+        a{
+            display: inline;
+            justify-content:center;
+            text-decoration: none;
+            color: rgb(85, 184, 223);
+            
+            &:hover{
+                color: rgb(123, 69, 185);
+                text-decoration: underline currentColor 9px; 
+            }  
+        }
     }
 }
 
-.LinkRight{
-    width:100%;
-}
 
 
 .NavBar2{

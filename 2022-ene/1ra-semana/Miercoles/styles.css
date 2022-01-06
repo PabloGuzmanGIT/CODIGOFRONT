@@ -1,0 +1,10 @@
+.botones {
+  font-size: 20px;
+  -webkit-text-decoration: underline solid 9px;
+          text-decoration: underline solid 9px;
+  border: none;
+}
+.botones .qw {
+  color: white;
+  background-color: rgba(136, 60, 60, 0.986);
+}
